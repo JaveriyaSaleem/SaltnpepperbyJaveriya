@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+    padding-bottom: 12px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 0px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -90px;
+}
+
+nav ul li {
+    margin-right: 50px; 
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#frenchisebutton{
+    font-size: small;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+#orderbutton{
+    font-size: small;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: red;
+    border-color: red;
+    padding-right: 10px ;
+    display: flex;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 2px;
+    margin-bottom: px;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+#landing{
+   width: 100%;
+   
+}
+
