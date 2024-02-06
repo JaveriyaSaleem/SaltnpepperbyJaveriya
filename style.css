@@ -1,3 +1,7 @@
+@font-face {
+    font-family:Futurak;
+    src: url(fonts/futurak.ttf);
+}
 body {
     background-color: black;
     color: white;
@@ -63,4 +67,68 @@ figure{
    width: 100%;
    
 }
+.saltnpepper{
+    font-family: Futurak;
+}
+#h1logo{
+    font-size: 55px;
+    }
+
+#welcomenote{
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+#welcomepara{
+    text-align: center;
+    font-size: larger;
+}
+#welcomesecborder{
+    border-style: solid;
+    border-color: black;
+    margin-left: 190px;
+    margin-right: 190px;
+
+}
+ .BrandImage{
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right:
+
+} 
+.same{
+    border-style: solid;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color: azure;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#brandbutton{
+
+margin: 30px 4px;
+}
+.buttonsbrand{
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.391);
+    border-radius: 50px;
+    display: inline-flex;
+    padding: 23px 50px;
+    margin: 2px 20px;
+}
+#order2{
+    margin-left: 100px;
+}
+#reserved{
+    margin-left: 70px;
+}
+
+
 
