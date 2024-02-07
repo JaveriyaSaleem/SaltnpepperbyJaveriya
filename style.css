@@ -95,7 +95,6 @@ figure{
  .BrandImage{
     display: inline-flex;
     padding-left: 10px;
-    padding-right:
 
 } 
 .same{
@@ -212,8 +211,32 @@ margin: 30px 4px;
     border-radius:10px;
     margin-left: 60px;
  }
- 
+ #ExpressFrenchises{
+    /* border-style: solid; */
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ #frenchiseheading{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+ }
+.imagesofexpress{
+  
+    display: inline-flex;
+    margin-left: 26px;
+    margin-bottom: 30px;
+     
+ }
+.nine{
 
+    border-radius: 5px ;
+    width: 320px;
+    height: 220px;
+}
+.centerimage{
+    margin-right: 30px;
+}
 
 
 
