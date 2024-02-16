@@ -14,7 +14,11 @@ body {
   font-family: sans-serif;
   font-weight: lighter;
 }
+header{
+  padding-top: 25px;
+}
 .navbar-container {
+  /* border-style: solid; */
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -40,6 +44,9 @@ nav ul li {
 .apercu {
   font-family: Apercu;
   color: red;
+}
+#mainlogo{
+  margin-left: 40px;
 }
 
 #frenchisebutton {
@@ -454,27 +461,5 @@ a{
 #gujranwala {
   margin-left: 100px;
 }
-#getpackages {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-family: poppins;
-  color: aliceblue;
-  font-size: 15px;
-  font-weight: 400;
-  border-style: solid;
-  border-radius: 30px;
-  padding-left: 50px;
-  padding-bottom: 2px;
-  padding-top: 15px;
-  border-width: 1px;
-  margin-bottom: 30px;
-  border-color: rgba(255, 255, 255, 0.391);
-  
-}
-#whitearrowbut{
-    width: 30px;
-    background-color: aliceblue;
-    border-radius: 20px;
-}
-#getdirectionpack{
-    margin-bottom:100px;
-}
+
+
