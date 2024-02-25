@@ -536,3 +536,73 @@ width: 1030px;
   color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.03em;
 }
+.VillageFranchise{
+  background-color: #161414;
+}
+#villagediv{
+  display: flex;
+  flex-direction: row;
+ gap: 30px;
+ padding-bottom: 40px;
+}
+
+.frenchiseheadingtwo{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+#VillageFranchiseimg{
+  width: 630px;
+}
+.contentvillage{
+  margin-top: 60px;
+  width: 600px;
+  line-height: 2px;
+}
+.villageapercu{
+  color: #df3434;
+  font-size: 1.0rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.hthreevillage{
+  font-size: 1.9rem;
+  font-weight: lighter;
+
+}
+#villagespan{
+  font-weight: lighter;
+  font-family: Apercu;
+}
+.twoline{
+  padding-top: 1px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.03em;
+ padding-bottom: 4px;
+ font-family: Apercu;
+  font-weight: 400;
+}
+.villagebutton{
+  border: hidden;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #28A745;
+  color: white;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 10px 28px;
+}
+.icongetvillage{
+  border-style: hidden;  
+  border-radius: 20px;
+ background-color: white;
+  color: #28A745;
+  padding: 6px 6px;
+}
+#buttoniconvillage{
+  padding-top: 30px;
+}
