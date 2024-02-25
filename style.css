@@ -13,6 +13,7 @@ body {
   height: 0;
   font-family: sans-serif;
   font-weight: lighter;
+  overflow-x:hidden ;
 }
 header{
   padding-top: 25px;
@@ -659,4 +660,21 @@ gap: 20px;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  }
+  /* SOCIAL FEED  */
+  #socialfeed{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Butler';
+    padding-top: 70px;
+    font-weight: 500;
+  }
+  .mainsocialdivflex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 27px;
+  }
+  .socialimage{
+    width: 230px;
   }
