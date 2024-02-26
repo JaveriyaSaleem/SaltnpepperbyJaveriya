@@ -14,25 +14,27 @@ body {
   font-family: sans-serif;
   font-weight: lighter;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 header {
-  padding-top: 25px;
+ width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
 }
 .navbar-container {
   /* border-style: solid; */
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
   width: 100%;
-  padding-bottom: 12px;
-  margin-left: 20px;
-  margin-bottom: 0;
-  margin-top: 0px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  margin-top: -90px;
 }
 
 nav ul li {
@@ -54,10 +56,15 @@ nav ul li {
   font-size: small;
   border-style: solid;
   border-radius: 40px;
+  border-width: 1px;
   padding: 20px;
   margin-top: 1px;
   margin-bottom: 25px;
   margin-right: 10px;
+}
+.nav-center{
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 #orderbutton {
@@ -89,24 +96,38 @@ figure {
 
 #landing {
   width: 100%;
+  object-fit: cover;
 }
 .saltnpepper {
   font-family: Futurak;
 }
 #h1logo {
   font-size: 55px;
+  font-weight: lighter;
 }
 
 .h1 {
+  padding-top: 40px;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Apercu;
+  font-weight: 400;
   line-height: 55px;
-  margin-bottom: 20px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .paraclass {
   text-align: center;
-  font-size: larger;
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
 }
 #welcomesecborder {
   /* border-style: solid; */
