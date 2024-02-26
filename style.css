@@ -667,9 +667,12 @@ a {
 }
 /* end of social  */
 footer{
+  margin-top: 40px;
+  padding-top: 50px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   gap: 80px;
+  background-color: #181818;
 }
 #firstfooterdiv {
   width: 32%;
@@ -721,7 +724,7 @@ footer{
   border-radius: 20px;
   background-color: #ED1C24;
   color: #FFFFFF;
-  padding: 10px;
+  padding: 10px 13px;
 }
 .rightsideflex{
   display: flex;
